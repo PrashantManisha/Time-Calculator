@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Calculation</title>
+    
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <div class="brand-logo"></div>
+            <div class="occ">Operation Control Center (OCC)</div>
+            <div class="brand-title">Time Calculation</div>
+            <div class="inputs">
+                <label>Start Time:</label>
+                <input id="start" type="text" placeholder="Enter Start Time:" name="alpha" value="" onkeypress="addColon(this.form.alpha, this.form.total);" maxlength="5"/>
+                <label>End Time:</label>
+                <input id="end" type="text" placeholder="Enter End Time:" name="beta" value="" onkeypress="addColon(this.form.beta, this.form.total);" maxlength="5"/>
+                <button type="button">Result</button><br>
+                 <input type="text" id="cal"/>
+                 <a href="">By: Gopi Krishna Uprety</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
